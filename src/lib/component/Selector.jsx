@@ -4,7 +4,7 @@ function ListItem(props){
     return <option value={props.value}>{props.value}</option>
 }
 
-function Selector({title,valuesList,valueInfo}){
+function Selector({title,valuesList}){
     const listOption = valuesList.map((option, index)=>
         <ListItem key={index} value={option.name}/>
     );
