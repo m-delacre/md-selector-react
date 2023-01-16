@@ -1,7 +1,7 @@
 {
   "name": "md-selector-react",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "module": "dist/index.js",
   "author": "m-delacre",
   "files": [
