@@ -1,6 +1,24 @@
 import Selector from "../lib/component/Selector";
 
 function App(){
+    const department = [
+        {
+            "name":"Sales"
+        },
+        {
+            "name":"Marketing"
+        },
+        {
+            "name":"Engineering"
+        },
+        {
+            "name":"Human ressources"
+        },
+        {
+            "name":"Legal"
+        },
+    ]
+
     const states = [
         {
             "name": "Alabama",
@@ -243,8 +261,7 @@ function App(){
         <div className="examples">
             <Selector
                 title="State"
-                valuesList={states}
-                valueInfo="name"
+                valuesList={department}
             />
         </div>
     )
