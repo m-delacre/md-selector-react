@@ -257,11 +257,13 @@ function App(){
             "abbreviation": "WY"
         }
     ];
+
     return(
         <div className="examples">
             <Selector
                 title="State"
                 valuesList={department}
+                onChange={(e)=>console.log(e)}
             />
         </div>
     )
