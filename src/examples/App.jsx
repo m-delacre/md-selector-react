@@ -262,8 +262,8 @@ function App(){
         <div className="examples">
             <Selector
                 title="State"
-                valuesList={department}
-                onChange={(e)=>console.log(e)}
+                valuesList={states}
+                onChange={(e)=>console.log(e.target.value)}
             />
         </div>
     )

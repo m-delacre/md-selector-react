@@ -15,7 +15,8 @@ function ListItem(props) {
 function Selector(_ref) {
   let {
     title,
-    valuesList
+    valuesList,
+    onChange
   } = _ref;
   const listOption = valuesList.map((option, index) => /*#__PURE__*/_react.default.createElement(ListItem, {
     key: index,
@@ -27,7 +28,8 @@ function Selector(_ref) {
     htmlFor: "selector"
   }, title), /*#__PURE__*/_react.default.createElement("select", {
     name: "selector",
-    id: "selector"
+    id: "selector",
+    onChange: onChange
   }, listOption));
 }
 var _default = Selector;
