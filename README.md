@@ -1,4 +1,4 @@
-# md-selector-react is a React components created using `create-react-app`.
+# md-selector-react is a React components created using create-react-app.
 
 this component is a simple select with a label.
 
